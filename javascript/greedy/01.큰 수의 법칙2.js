@@ -5,13 +5,7 @@ const data = [2, 4, 5, 4, 6, 6];
 
 const n = data.length;
 
-const uniqueData = [];
-
-data.forEach((k) => {
-  if (!uniqueData.includes(k)) {
-    uniqueData.push(k);
-  }
-});
+const uniqueData = [...new Set(data)];
 
 uniqueData.sort();
 
