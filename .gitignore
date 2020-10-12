@@ -1,6 +1,10 @@
 *
-!/**/
-!*.*
+
+!*/
+!**/*.cpp
+!**/*.py
+!**/*.js
+!**/*.c
 
 .vscode
 */tempCodeRunnerFile.*
